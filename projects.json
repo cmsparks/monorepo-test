@@ -1,0 +1,34 @@
+{
+  "projects-a": {
+    "id": "096b811e-b35b-4f10-89fd-3dd33791d008",
+    "name": "monorepo-test-project-a",
+    "source": {
+      "type": "github",
+      "config": {
+        "owner": "cmsparks",
+        "repo_name": "monorepo-test",
+        "path_includes": [
+          "project-a/*",
+          "lib/*"
+        ],
+        "path_excludes": []
+      }
+    }
+  },
+  "project-b": {
+    "id": "62a6e1f0-967a-43b6-b582-122356acb381",
+    "name": "monorepo-test-project-b",
+    "source": {
+      "type": "github",
+      "config": {
+        "owner": "cmsparks",
+        "repo_name": "monorepo-test",
+        "path_includes": [
+          "project-b/*",
+          "lib/*"
+        ],
+        "path_excludes": []
+      }
+    }
+  }
+}
