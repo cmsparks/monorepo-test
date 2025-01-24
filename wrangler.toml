@@ -1,5 +1,5 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "worker-test"
+name = "monorepo-test"
 main = "src/index.ts"
 compatibility_date = "2024-06-01"
 compatibility_flags = ["nodejs_compat"]
